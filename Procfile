@@ -1,1 +1,1 @@
-streamlit run testcase.py
+web: streamlit run testcase.py
