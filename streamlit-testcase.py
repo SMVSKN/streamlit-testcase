@@ -27,20 +27,17 @@ print(start, stop)
 def run_strategy():
     i = 0
     while True:
-        print(i, start, stop)
+        st.write(i, start, stop)
         print(f'Current Parameters For The Run:')
         print_parameter_values()
-        print(f'Hi2 {start}, {stop}')
         sleep(sleep_interval)
         i = i+1
 
 if start:
-    print('In start')
-    print(start)
-run_strategy()
+    st.write('In start')
+    run_strategy()
 if stop:
-    print('In stop')
-    print(stop)
+    st.write('In stop')
     st.write('Exiting…')
 
 
