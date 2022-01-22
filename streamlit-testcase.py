@@ -10,12 +10,6 @@ sleep_interval = form.number_input("Sleep Interval", value=int(3))
 start = form.form_submit_button("Start")
 stop = st.sidebar.button("Stop")
 
-stop_loss_target_total = 600
-profit_target_total = 800
-sleep_interval = 5
-start = st.sidebar.button("Start")
-stop = st.sidebar.button("Stop")
-
 def print_parameter_values():
     print(f'\tSleep Interval: {sleep_interval} Secs')
     print(f'\tProfit Target (per lot): {profit_target_total}')
